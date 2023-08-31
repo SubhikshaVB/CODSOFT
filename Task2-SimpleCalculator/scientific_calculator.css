@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 5px;
+  text-align: center;
+}
+.center {
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+body {
+  background: linear-gradient(to bottom, #3498db, #e74c3c);
+  display: flex;
+  height: 100vh;
+}
+.calculator {
+  width: 350px;
+  height: 400px;
+  justify-content: center;
+  flex-direction: column;
+   background-color :#7393B3;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+#display {
+  width: 400px;
+  height: 70px;
+  text-align: right;
+  background-color: #AFE1AF;
+  border: 3px solid black;
+  font-size: 20px;
+  left: 2px;
+  top: 2px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size : 40px;
+}
+.topBtn{
+  color: white;
+  background-color: #36454F;
+  box-shadow: 0px 0px 0px 2px grey;
+  font-size: 15px;
+  margin: auto;
+  width: 60px;
+  height: 35px;
+}
+.numBtn {
+  color: white;
+  background-color: #A9A9A9;
+  box-shadow: 0px 0px 0px 1px black;
+  font-size: 15px;
+  margin: auto;
+  width: 60px;
+  height: 35px;
+}
+.operatorBtn {
+  color: white;
+  background-color: #36454F;
+  box-shadow: 0px 0px 0px 2px grey;
+  font-size: 15px;
+  margin: auto;
+  width: 60px;
+  height: 35px;
+}
+.advBtn {
+  color: white;
+  background-color: #36454F;
+  box-shadow: 0px 0px 0px 1px grey;
+  font-size: 15px;
+  margin: auto;
+  width: 60px;
+  height: 35px;
+}

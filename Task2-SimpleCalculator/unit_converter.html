@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="unit_converter.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>Unit Converter</h1>
+        <div class="categories">
+            <select id="category">
+                <option value= "categories">Category</option>
+                <option value= "length">Length</option>
+                <option value= "volume">Volume</option>
+                <option value= "mass">Mass</option>
+                <option value=" time">Time</option>
+                <option value= "temperature">Temperature</option>
+                <option value= "speed">Speed</option>
+                <option value= "angle">Angle</option>
+            </select>
+        </div>
+    <div class="inputs">
+        <input type="number" id="inputValue">
+        <select id="inputUnit"></select>
+    </div>
+    <div class="outputs">
+        <input type="number" id="outputValue" readonly>
+        <select id="outputUnit"></select>
+    </div>
+    <button id="convertBtn">Convert</button>
+
+
+    </div>
+    <script src="unit_converter.js"></script>
+</body>
+</html>
