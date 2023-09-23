@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard_teacher.css"> 
+    <title>Teacher Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome, Teacher!</h1>
+    </header>
+    <main>
+        <section id="gradebook">
+            <h2>Gradebook</h2>
+            <select id="courseSelect">
+                <option>Maths</option>
+                <option>Course 2</option>
+                <option>Course 3</option>
+            </select>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Course Name</th>
+                        <th>Assignment 1 (10)</th>
+                        <th>Assignment 2 (10)</th>
+                        <th>Midterm Exam (30)</th>
+                        <th>Final Exam (100)</th>
+                        <th>Total Marks (150)</th>
+                    </tr>
+                </thead>
+                <tbody id="gradebook-body">
+                    <tr>
+                        <td><input type="text" class="student-name"></td>
+                        <td><input type="text" class="course-title"></td>
+                        <td><input type="number" class="grade"></td>
+                        <td><input type="number" class="grade"></td>
+                        <td><input type="number" class="grade"></td>
+                        <td><input type="number" class="grade"></td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="student-name"></td>
+                        <td><input type="text" class="course-title"></td>
+                        <td><input type="number" class="grade"></td>
+                        <td><input type="number" class="grade"></td>
+                        <td><input type="number" class="grade"></td>
+                        <td><input type="number" class="grade"></td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button id="add-student-btn">Add Student</button>
+            <button id="saveGrades">Save Grades</button>
+            <button id="calculateAverage">Calculate Average</button>
+            <button id="showGrades">Show Lowest and Highest Grades</button>
+        </section>
+
+        <section id="results">
+            <h2>Results</h2>
+            <p id="averageResult">Average Grade: </p>
+            <p id="lowestGrade">Lowest Grade: </p>
+            <p id="highestGrade">Highest Grade: </p>
+        </section>
+        
+    </main>
+    <footer>
+        <p style="font-size: larger; font-weight: bolder;">Dashboard</p>
+    </footer>
+    <script src="./dashboard_teacher.js"></script>
+</body>
+</html>
