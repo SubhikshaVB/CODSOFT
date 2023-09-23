@@ -26,7 +26,9 @@ When PASSWORD is clicked/focussed:  ![image](https://github.com/SubhikshaVB/CODS
 Teacher Dashboard Page:
 ![image](https://github.com/SubhikshaVB/CODSOFT/assets/94585828/ef92b4a5-073b-4577-b8f3-0c5a192a420a)
 
+Dashboard: 
 ![image](https://github.com/SubhikshaVB/CODSOFT/assets/94585828/bdf9e783-9b44-4459-9132-09b1cdbd890e)
 
+Dashboard after saving grades:
 ![image](https://github.com/SubhikshaVB/CODSOFT/assets/94585828/9af49452-0a3f-417e-849c-75988b5ebc77)
 
