@@ -1,4 +1,4 @@
-Intern at CodSoft
+C++ Programming Intern at CodSoft
 
 **Number Guessing Game:**
 ![image](https://github.com/SubhikshaVB/CODSOFT/assets/94585828/6fc4c3eb-f32c-4259-944d-695547c8a6d3)
