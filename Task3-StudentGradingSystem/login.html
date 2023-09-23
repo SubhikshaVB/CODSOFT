@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="container">
+        <div id="girl-animation"></div>
+        <h1>Login</h1>
+        <form id="loginForm">
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" id="username" required style="border: 2px solid black;">
+                <label class="placeholder">Username</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" required style="border: 2px solid black;">
+                <label class="placeholder">Password</label>
+            </div>
+            <div class="input-group">
+                <input type="radio" id="teacher" name="access" value="teacher" required> 
+                <label for="teacher" style="font-weight: bolder;">Teacher</label><br>
+            </div>
+            <div>
+                <input type="radio" id="student" name="access" value="student" required> 
+                <label for="student" style="font-weight: bolder;">Student</label><br>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p id="errorText" class="error-text"></p>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
